@@ -6,3 +6,11 @@ body{
     color: white;
     align-items: center;
 }
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
