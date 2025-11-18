@@ -1,0 +1,28 @@
+.fitxa-disc {
+    display: flex;            
+    gap: 25px;                
+    margin: 40px 0;           
+    align-items: flex-start;  
+}
+
+ .fitxa-disc .portada img {
+    width: 270px;             
+}
+
+
+.info-disc h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.info-disc ol {
+    margin-top: 5px;
+    padding-left: 20px;       
+}
+
+
+.info-disc a {
+    color: #1cb652;
+    font-weight: bold;
+    text-decoration: none;
+}
