@@ -19,11 +19,11 @@ h1 {
   margin-top: 0;
   text-align: center;
   letter-spacing: 2px;
-  color: #f3587a;
+  color: white;
 }
 
 fieldset {
-  border: 1px solid #752b52;
+  border: 1px solid #5c752b;
   border-radius: 6px;
   padding: 1.25rem;
   margin: 0;
@@ -41,7 +41,7 @@ form {
 legend {
   font-weight: 600;
   padding: 0 0.5rem;
-  color: #f3587a;
+  color: white;
 }
 
 label {
