@@ -10,8 +10,19 @@ body{
 .navegador {
     position: sticky;
     top: 0;
-    background: #202020; 
-    padding: 0.5rem 0;    
+    background: #202020;
+    padding: 0.5rem 1rem;
+    display: flex;               
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navegador a {
+    color: rgb(175, 172, 235);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
 }
 
 h1{
@@ -20,4 +31,34 @@ h1{
 
 p{
     text-align: justify;
+}
+
+.footer {
+    background: #202020;
+    color: rgb(175, 172, 235);
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer a {
+    color: rgb(175, 172, 235);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-links,
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
 }
