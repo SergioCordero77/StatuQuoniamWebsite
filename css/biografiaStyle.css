@@ -1,3 +1,70 @@
-.portada {
-    width: 90px;
+.origen {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.origen-text {
+    flex: 1;
+}
+
+.foto-origen {
+    width: 300px;
+}
+
+.foto-origen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.origen .foto-origen img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.actuacio {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.foto-actuacio {
+    flex: 0 0 500px;
+}
+
+.foto-actuacio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: flex;
+}
+
+.actuacio-text {
+    flex: 1;
+}
+
+.artistes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artista {
+  width: 200px;
+  text-align: center;
+}
+
+.artista p{
+    text-align: center;
+}
+
+.artista img {
+  width: 100%;
+  border-radius: 10px;
 }
