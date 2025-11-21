@@ -1,10 +1,18 @@
-.portada {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+body {
+    margin: 0;
+    padding: 0;   /* antes tenías 2rem */
+    background: #121212;
+    color: white;
 }
 
-.portada img {
-    width: 800px;
-    display: block;
+.foto-portada {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.foto-portada img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
