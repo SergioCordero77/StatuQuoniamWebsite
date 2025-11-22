@@ -1,3 +1,10 @@
+.content-biografia{
+    margin: 20px;
+    background-color: rgb(47, 52, 27);
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .origen {
     display: flex;
     align-items: stretch;
@@ -46,6 +53,13 @@
 
 .actuacio-text {
     flex: 1;
+}
+
+.content-artista{
+    margin: 20px;
+    background-color: rgb(47, 52, 27);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .artistes {
