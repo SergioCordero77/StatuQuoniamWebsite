@@ -9,12 +9,15 @@ body{
 
 header {
     display: flex;
-    position: sticky;
-    padding: 0.5rem 1rem;             
+    align-items: center;
     justify-content: center;
+    position: sticky;
     top: 0;
+    padding: 0.5rem 1rem;
     background: #202020;
     gap: 1rem;
+    width: 100%;
+    z-index: 1000;
 }
 
 .logo{

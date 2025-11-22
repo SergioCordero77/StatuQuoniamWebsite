@@ -1,0 +1,27 @@
+.video-content{
+    margin: 20px;
+    background-color: rgb(47, 52, 27);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;   /* centra verticalmente */
+    gap: 20px;
+}
+
+.video-text {
+    flex: 1;               /* el texto ocupa todo el espacio */
+}
+
+.video {
+    display: flex;
+    justify-content: flex-end;  /* lo empuja a la derecha */
+    align-items: center;
+}
+
+.video iframe {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+}
