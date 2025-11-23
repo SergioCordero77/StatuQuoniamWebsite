@@ -1,0 +1,103 @@
+p{
+    text-align: center;
+}
+
+/* --------------------------------------------SECCIÓ DIRECTES-------------------------------------------- */
+
+.directes-container {
+    margin: 20px;
+    background-color: rgb(47, 52, 27);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.directes {
+    display: flex;
+    gap: 10px;
+    justify-content: center; 
+}
+
+.directes img {
+    width: 650px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+.directes-container  img {
+    width: 650px;
+    height: 550px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+/* --------------------------------------------SECCIÓ PRESENTACIÓ-------------------------------------------- */
+
+.presentacio-container {
+    margin: 20px;
+    background-color: rgb(47, 52, 27);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.presentacio {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+} 
+
+.presentacio img{
+    width: 650px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+/* --------------------------------------------SECCIÓ BACKSTAGE-------------------------------------------- */
+
+.backstage-container {
+    margin: 20px;
+    background-color: rgb(47, 52, 27);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.backstage {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+} 
+
+.backstage img{
+    width: 650px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+/* --------------------------------------------SECCIÓ ART-------------------------------------------- */
+
+.art-container {
+    margin: 20px;
+    background-color: rgb(47, 52, 27);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.art-container img{
+    width: 650px;
+    height: 550px;
+    border-radius: 10px;
+}
