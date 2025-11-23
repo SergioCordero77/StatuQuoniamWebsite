@@ -1,14 +1,27 @@
-table, th, td {
-    border: 1px solid black;
-    border-color: 1px solid black; 
-    border-collapse: collapse;
+.concerts-container {
+    margin: 20px;
+    background-color: rgb(47, 52, 27);
+    border-radius: 10px;
     padding: 10px;
+    align-items: center;
 }
-table{
-    margin: auto;
+
+table {
+    width: 90%;
     text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 16px;            
 }
+
+th, td {
+    padding: 18px 25px;         
+    border: 1px solid rgb(206, 244, 92);
+}
+
 caption {
-    color: rgb(172, 225, 88);
-    font-size: 25px;
+    color: white;
+    font-size: 28px;            
+    margin-bottom: 20px;
+    font-weight: bold;
 }
