@@ -1,14 +1,41 @@
+/* -------------------------------------------- SECCIÓ DISCOGRAFIA -------------------------------------------- */
+.discografia-container {
+    margin: 20px;
+    background-color: rgb(47, 52, 27);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* -------------------------------------------- SECCIÓ ALBUMS -------------------------------------------- */
+
+.album {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: flex-start;
+    gap: 50px;
+}
+
 .fitxa-disc {
-    display: flex;            
-    gap: 25px;                
-    margin: 40px 0;           
-    align-items: flex-start;  
+    display: flex;
+    gap: 25px;
+    margin: 40px 0;
+    align-items: flex-start;
+    background-color: rgb(64, 44, 82);
+    border-radius: 10px;
+    padding: 20px;
+    width: 450px;
+    min-height: 350px;
 }
 
 .fitxa-disc .portada img {
-    width: 270px;             
+    width: 260px;
+    height: 260px;
+    object-fit: cover;  
+    border-radius: 10px;
 }
-
 
 .info-disc h3 {
     margin-top: 0;
@@ -17,11 +44,48 @@
 
 .info-disc ol {
     margin-top: 5px;
-    padding-left: 20px;       
+    padding-left: 20px;
 }
 
-
 .info-disc a {
+    color: #1cb652;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* -------------------------------------------- SECCIÓ SINGLES -------------------------------------------- */
+
+.container-fitxes1,
+.container-fitxes2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.fitxa-single {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    background-color: rgb(64, 44, 82);
+    padding: 15px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.fitxa-single .portada img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.info-single h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.info-single a {
     color: #1cb652;
     font-weight: bold;
     text-decoration: none;
