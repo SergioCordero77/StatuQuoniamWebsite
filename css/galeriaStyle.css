@@ -22,13 +22,13 @@ p{
 
 .directes img {
     width: 650px;
-    height: 550px;
+    height: 470px;
     border-radius: 10px;
 }
 
 .directes-container  img {
     width: 650px;
-    height: 550px;
+    height: 470px;
     margin-top: 10px;
     display: block;
     margin-left: auto;
@@ -56,7 +56,7 @@ p{
 
 .presentacio img{
     width: 650px;
-    height: 550px;
+    height: 470px;
     border-radius: 10px;
 }
 
@@ -80,7 +80,7 @@ p{
 
 .backstage img{
     width: 650px;
-    height: 550px;
+    height: 470px;
     border-radius: 10px;
 }
 
@@ -98,6 +98,6 @@ p{
 
 .art-container img{
     width: 650px;
-    height: 550px;
+    height: 470px;
     border-radius: 10px;
 }
