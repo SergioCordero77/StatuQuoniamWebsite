@@ -1,67 +1,173 @@
-p {
-    text-align: center;
-}
+main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
 
-.perfil {
-    margin: 20px auto;
-    background-color: rgb(47, 52, 27);
-    border-radius: 10px;
-    padding: 10px;
+/* --------------------------------------------PART ESQUERRA-------------------------------------------- */
+
+.esquerra {
+    font-size: 14px;
+    background-color: rgb(34, 84, 200);
+    color: white;
+    width: 400px;
+    padding: 20px;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+
+}.cvSergio {
+    display: flex;
+    justify-content: center;
+    padding: 20px;   
+}
+/* --------------------------------------------FOTO I ICONES-------------------------------------------- */
+.sergio {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 700px;
 }
 
-.autor-socials {
+.sergio img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+
+.sergio img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.sergio-socials {
     margin-top: 15px;
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
-.autor-social-botons {
+.sergio-social-botons {
     text-decoration: none;
     font-size: 20px;
     color: white;
 }
 
-.autor,
-.estudis,
-.habilitats-fortes,
-.habilitats-febles,
-.experiencia {
-    margin: 10px;
-    background-color: rgb(45, 53, 84);
-    border-radius: 10px;
-    padding: 15px;
-    width: 600px;
+.fotoCV {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* --------------------------------------------TAULES ESQUERRA-------------------------------------------- */
+
+.esquerra table {
+    margin: 20px;
+}
+
+.esquerra caption{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.esquerra th,
+.esquerra td {
+    padding: 8px;
+}
+
+a {
+    font-size: 24px;
+}
+
+.esquerra table,
+.esquerra th,
+.esquerra td {
+    padding: 8px;
+}
+
+/* --------------------------------------------FORMACIÓ-------------------------------------------- */
+.dreta {
+    padding: 30px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    width: 700px;
     text-align: center;
 }
 
-.autor img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    transition: transform 0.2s ease;
+.dreta ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.autor img:hover {
-    transform: scale(1.05);
-    cursor: pointer;
+/* ------------------------------------TAULES FORMACIÓ I EXPERIENCIA------------------------------------ */
+
+.dreta {
+    display: flex;
+    flex-direction: column;
 }
 
-.habilitats {
+.dreta table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.dreta caption {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.dreta th,
+.dreta td {
+    padding: 8px;
+    text-align: left;
+}
+
+.formacio-academica table,
+.experiencia table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.formacio-academica th,
+.formacio-academica td,
+.experiencia th,
+.experiencia td {
+    padding: 8px;
+    text-align: left;
+}
+
+
+.formacio-academica thead th,
+.experiencia thead th {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main a {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    width: 600px;
+    margin: 20px 0;
+    text-decoration: none;
+    border: none;          
 }
 
-.habilitats-fortes,
-.habilitats-febles {
-    flex: 1;
+main button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
 }
