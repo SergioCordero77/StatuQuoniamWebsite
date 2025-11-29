@@ -1,8 +1,8 @@
 main {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /* --------------------------------------------PART ESQUERRA-------------------------------------------- */
 
@@ -76,10 +76,6 @@ main {
 .esquerra th,
 .esquerra td {
     padding: 8px;
-}
-
-a {
-    font-size: 24px;
 }
 
 .esquerra table,
