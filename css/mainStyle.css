@@ -25,7 +25,7 @@ header {
     align-items: center;
 }
 
-.logo-esquerre{
+.logo-esquerra{
     margin-right: auto;
 }
 
@@ -34,11 +34,11 @@ header {
     align-items: center;
 }
 
-.navegador {
+#navegador {
     display: flex;
 }
 
-.navegador a {
+#navegador a {
     color: rgb(205, 245, 124);
     font-weight: bold;
     text-decoration: none;
@@ -54,7 +54,7 @@ p{
     text-align: justify;
 }
 
-.footer {
+#footer {
     background: #202020;
     color: rgb(175, 172, 235);
     padding: 2rem 1rem;
@@ -71,7 +71,7 @@ p{
     align-items: center;
 }
 
-.footer a {
+#footer a {
     color: rgb(175, 172, 235);
     text-decoration: none;
     font-weight: bold;

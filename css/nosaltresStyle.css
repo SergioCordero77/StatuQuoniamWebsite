@@ -51,6 +51,11 @@ p{
     color: white;
 }
 
+.autor a{
+    color: white;
+    text-decoration: none;
+}
+
 .autor p{
     text-align: center;
 }
