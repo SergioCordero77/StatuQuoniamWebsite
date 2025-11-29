@@ -12,16 +12,40 @@
     flex: 1;            
 }
 
-.video {
+.img-video-container {
     display: flex;
     justify-content: flex-end; 
     align-items: center;
 }
 
-.video iframe {
+.img-video {
+    position: relative;
     width: 400px;
     height: 300px;
+    cursor: pointer;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-video img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    filter: brightness(0.85);
+    transition: filter 0.2s ease, transform 0.2s ease;
     display: block;
+}
+
+.icona-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    color: white;
+    pointer-events: none;
+}
+
+.img-video:hover img {
+    transform: scale(1.03);
 }
