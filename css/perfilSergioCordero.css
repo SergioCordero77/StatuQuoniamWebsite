@@ -84,13 +84,13 @@ main {
     padding: 8px;
 }
 
-/* --------------------------------------------FORMACIÓ-------------------------------------------- */
+/* --------------------------------------------PART DRETA-------------------------------------------- */
 .dreta {
     padding: 30px;
     font-size: 20px;
     background-color: white;
     color: black;
-    width: 700px;
+    width: 850px;
     text-align: center;
 }
 
